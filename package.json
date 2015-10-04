@@ -1,0 +1,17 @@
+{
+  "name": "webgme-client-only",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive test"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.13.3",
+    "webgme": "latest"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "rimraf": "^2.4.0",
+    "chai": "^3.0.0"
+  }
+}
